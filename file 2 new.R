@@ -30,8 +30,13 @@ seq (1.100, by=2)
 seq (1.10, lenght.out=5)
 rep(1.5)
 rep(c(1.4),times=4)
-rep(c(1.4),each=4)
+rep(c(1,4),each=4)
  
 #working directory
 methods(class='matrix')
 plot(1:10)
+
+#run all commands in the source file test1.R
+
+source('test1.r')
+
