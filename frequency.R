@@ -66,4 +66,5 @@ lines(density(x3))
 x4=rnorm(1000,60.5)
 hist(x4,freq = 5)
 lines(density(x4))
+library(rjava)
  
